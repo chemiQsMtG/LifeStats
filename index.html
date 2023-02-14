@@ -1,12 +1,172 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Test</title>
+<title>LifeStats</title>
 </head>
+
 <body>
 
-<h1>Wird die Seite automatisch an mobile angepasst?</h1>
-<p>Hoffentlich lol </p>
+<h1>LifeStats</h1>
+<div class="ActiveArea">
+    
+    <div class="p1">
+        <div class="p1life">
+            <p>40</p> 
+        </div>
+    </div>
+    <div class="p2">
+        <div class="p2life">
+            <p>Here goes the Variable for life of P2</p> 
+        </div>
+    </div>
+    <div class="p3">
+        <div class="p3life">
+            <p>40</p> 
+        </div>
+    </div>
+    <div class="p4">
+        <div class="p4life">
+            <p>40</p> 
+        </div>
+    </div>
+
+</div>
+
+
+<style>
+   h1 {
+    height:5vh;
+    color:black;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+
+
+
+.ActiveArea{
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.qtop,
+.qbottom{
+    width: 100%;
+    height: 10vh;
+}
+
+.p1,
+.p2,
+.p3,
+.p4{
+    display: inline;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.p1{
+    position:relative;
+    top: 0;
+    left: 0vh;
+    background-color: red;
+
+}
+
+.p1life{
+    position: relative;
+    top:25%;
+    left:25%;
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+     
+}
+.p1life p {
+    color:blue;
+    text-align:center;
+    padding: 10%;
+    font-size: 2.5em;
+}
+.p2{
+    top: 0;
+    left: 0;
+    background-color: yellow;
+}
+.p2life{
+        position: relative;
+        top:25%;
+        left:25%;
+        display: inline-block;
+        height: 50%;
+        width: 50%;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-align: center;         
+}
+
+.p2life p {
+    color:blue;
+    text-align:center;
+    padding: 10%;
+    font-size: 2.5em;
+}
+
+
+.p3{
+    top: 50vw;
+    left: 0;
+    background-color: blue;
+}
+.p3life{
+    position: relative;
+    top:25%;
+    left:25%;
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;         
+}
+.p3life p {
+color:blue;
+text-align:center;
+padding: 10%;
+font-size: 2.5em;
+}
+
+.p4{ 
+    top: 50vw;
+    left: 50vh;
+    background-color: green;
+}
+.p4life{
+    position: relative;
+    top:25%;
+    left:25%;
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;         
+}
+.p4life p {
+color:blue;
+text-align:center;
+padding: 10%;
+font-size: 2.5em;
+}
+
+
+</style>
+
 
 </body>
 </html>
